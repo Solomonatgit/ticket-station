@@ -15317,11 +15317,10 @@ ul.dropdown-menu.drp-mnu li a i {
   line-height: 2em;
 }
 
-.w3l_banner_nav_right_banner2 h3 i {
+.w3l_banner_nav_right_banner2 span {
   display: block;
   font-weight: 600;
   line-height: 2em;
-  color: var(--secondary-color);
 }
 
 .more a {
@@ -15551,7 +15550,7 @@ h3.title,
 .team h3,
 .events h3 {
   text-align: center;
-  color: var(--heading-color);
+  color: var(--gray-dark);
   padding-bottom: .5em;
   position: relative;
   font-size: 2.5em;
@@ -17953,7 +17952,7 @@ ul.page-pagination li a.next:hover {
 }
 
 .view-tenth .mask {
-  background-color: var(--secondary-color);
+  background-color: transparent;
   -webkit-transition: all 0.5s linear;
   -moz-transition: all 0.5s linear;
   -o-transition: all 0.5s linear;
@@ -17962,7 +17961,7 @@ ul.page-pagination li a.next:hover {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
