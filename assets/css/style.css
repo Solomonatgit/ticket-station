@@ -15577,6 +15577,14 @@ h3.title:after,
   left: 46%;
 }
 
+.rugby h3 {
+  text-align: center;
+  color: var(--secondary-color);
+  padding-bottom: .5em;
+  position: relative;
+  font-size: 2.5em;
+}
+
 .agile_top_brand_left_grid {
   background: var(--bg-color);
   padding: .5em;
