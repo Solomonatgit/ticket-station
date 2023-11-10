@@ -14014,7 +14014,7 @@ a.text-dark:focus {
 
 :root {
   --primary-color: #2874f0;
-  --secondary-color: #fb641b;
+  --secondary-color: #16558f;
   --font-color: #666;
   --bg-color: #fff;
   --heading-color: #252422;
@@ -14068,6 +14068,14 @@ html {
   margin: 0;
   padding: 0;
   background: var(--bg-color);
+  color: var(--font-color);
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.loginbg {
+  margin: 0;
+  padding: 0;
+  background: #0c131d;
   color: var(--font-color);
   font-family: 'Hind Siliguri', sans-serif;
 }
@@ -14845,7 +14853,7 @@ ul.agileits_social_icons li a,
 }
 
 .agileits_header {
-  background: var(--header-bg);
+  background: #0c131d;
   display: grid;
   grid-template-columns: 1fr 1.5fr 2fr;
   grid-gap: 0 20px;
@@ -14853,7 +14861,7 @@ ul.agileits_social_icons li a,
 }
 
 .agileits_header.fixed {
-  background: var(--header-bg);
+  background:#0c131d;
   height: 50px;
 }
 
@@ -15176,11 +15184,20 @@ ul.dropdown-menu.drp-mnu li a i {
 /*-- //header --*/
 /*-- banner --*/
 .banner {
-  display: grid;
+  display:grid;
   grid-template-columns: 1fr 4fr;
 }
 
 .w3l_banner_nav_left {
+  text-align: left;
+}
+
+.banny {
+  display:block;
+  grid-template-columns: 1fr 4fr;
+}
+
+.w3l_banner_nav_login {
   text-align: left;
 }
 
